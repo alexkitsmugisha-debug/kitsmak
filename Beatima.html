@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beatrima Fashion & Design</title>
+
+  <style>
+    body {
+      text-align: center;
+      background-color: purple;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 20px;
+    }
+
+    main {
+      margin: 20px;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: none;
+      width: 80%;
+      max-width: 300px;
+    }
+
+    input[type="submit"] {
+      background-color: #ffcc00;
+      color: black;
+      font-weight: bold;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #ffd633;
+    }
+
+    nav {
+      margin: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      background-color: white;
+      color: purple;
+      padding: 8px 15px;
+      border-radius: 5px;
+      margin: 5px;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ffcc00;
+      color: black;
+    }
+
+    nav p {
+      color: yellow;
+      font-weight: bold;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+
+    .home-link {
+      display: inline-block;
+      margin-top: 20px;
+      color: yellow;
+      text-decoration: none;
+    }
+
+    .home-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>WELCOME TO BEATRIMA FASHION & DESIGN</h1>
+    <i><h2>Please Fill The Form Below To Create An Account With Us</h2></i>
+  </header>
+
+  <main>
+    <!-- You can use mailto for testing or replace it with a real Google Form or backend script -->
+    <form action="https://docs.google.com/forms/d/e/alexkitsmugisha@gmail.com/formResponse" method="POST" target="_blank">
+
+      <label for="First name">First name:</label>
+      <input type="text" id="fname" name="fname" placeholder="Mark" required>
+
+      <label for="last name">Last name:</label>
+      <input type="text" id="lname" name="lname" placeholder="Westwood" required>
+
+      <label for="email">Email address:</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+
+  <nav>
+    
+    <a href="https://wa.me/+256766229437" target="_blank">WhatsApp</a>
+   <a href="https://www.tiktok.com/@user5173994207254" target="_blank">Tiktok</a>
+   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alexkitsmugisha@gmail.com&su=Inquiry%20from%20Beatrima%20Website&body=Hello%20Beatrima%20Team%2C%20I%20would%20like%20to%20learn%20more%20about%20your%20designs." 
+   target="_blank">Email</a><br>
+   <a href="beatrima-stalk.html"> EXPLORE STALK</a>
+  </nav>
+
+  <footer>
+    <p>© 2026 BEATRIMA FASHION & DESIGN</p>
+  </footer>
+
+  <a href="sample.html" class="home-link">Go Home</a>
+</body>
+</html>
