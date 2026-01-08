@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beatrima Fashions Stock</title>
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: url('fashion-styles.png');
+      background-size:style="width:12000, height:2000";          /* Makes the image cover the entire screen */
+      background-position: center;     /* Centers the image */
+      background-repeat: no-repeat;    /* Prevents tiling */
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      color: #fff; /* Makes text readable on dark or colorful backgrounds */
+    }
+
+    h1 {
+      color: #ffebff;
+      margin-bottom: 30px;
+      font-style: italic;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    }
+
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .category {
+      background-color: rgba(255, 255, 255, 0.85); /* Transparent white box */
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      width: 200px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .category a {
+      display: block;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .category:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    }
+
+    .category a:hover {
+      color: #6a1b9a;
+    }
+
+    footer {
+      margin-top: 50px;
+      color: #fff;
+      font-size: 14px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1><i>SHOP BY CATEGORY</i></h1>
+
+  <div class="categories">
+    <div class="category"><a href="women.html">Women</a></div>
+    <div class="category"><a href="men.html">Men</a></div>
+    <div class="category"><a href="kids.html">Kids</a></div>
+    <div class="category"><a href="footwear.html">Footwear</a></div>
+    <div class="category"><a href="accessories.html">Accessories</a></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Beatrima Fashions</p>
+  </footer>
+
+</body>
+</html>
